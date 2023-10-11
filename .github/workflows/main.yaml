@@ -8,7 +8,7 @@ on:
         options: 
           - dev 
           - qa 
-          - stage 
+          - main 
           - prod 
 
 jobs:
