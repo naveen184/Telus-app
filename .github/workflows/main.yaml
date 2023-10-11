@@ -1,10 +1,15 @@
-name: Maven CI/CD
-
+name: projedt ci dlow
 on:
-  push:
-    branches: [main]
-  pull_request:
-    branches: [main]
+  workflow_dispatch: 
+    inputs: 
+      env: 
+        type: choice 
+        description: Make a choice
+        options: 
+          - dev 
+          - qa 
+          - stage 
+          - prod 
 
 jobs:
   build_and_test:
