@@ -9,7 +9,7 @@ on:
           - dev 
           - qa 
           - main 
-          - prod 
+        
 
 jobs:
   build_and_test:
